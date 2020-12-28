@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  width: 100%;
+  position: relative;
+  height: 320px;
+  background-image: url("../images/Group\ 69.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+ul a {
+  color: #fff;
+}
+.nav h3 {
+  font-size: 42px;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 286px;
+  width: 100%;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 286px;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 80px;
+  height: 80px;
+  justify-content: space-between;
+  align-content: center;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+.nav ul {
+  display: flex;
+  width: 140px;
+  justify-content: space-between;
+}
+ul li {
+  font-size: 14px;
+  width: 60px;
+}
+.nav ul li:first-child {
+  border-right: 1px solid #fff;
+}
+
+.main_section {
+  padding-right: 140px;
+  padding-left: 140px;
+}
+
+.map {
+  margin-top: 50px;
+}
+.textSpace {
+  margin-top: 50px;
+  width: 370px;
+  margin-bottom: 50px;
+}
+.textSpace span {
+  color: #5863f8;
+  font-size: 14px;
+  font-weight: bold;
+}
+.textSpace p {
+  font-size: 42px;
+}
+
+.main_inputs {
+  display: flex;
+
+  height: 256px;
+  margin-bottom: 50px;
+}
+
+.main_inputs textarea {
+  max-width: 700px;
+  height: 250px;
+  flex: 2;
+  margin-right: 10px;
+  border: none;
+  outline: none;
+  resize: none;
+}
+.main_inputs textarea {
+  outline: 2px solid #2680eb;
+}
+
+.inputs {
+  width: 352px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.inputs input {
+  width: 100%;
+  height: 60px;
+  background-color: #f8f8f8;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+}
+.inputs input:focus {
+  outline: 2px solid #2680eb;
+}
+.inputs input::placeholder {
+  color: #cecece;
+}
+.btn {
+  width: 100%;
+  height: 60px;
+  background-color: #5863f8;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.btn img {
+  margin-left: 10px;
+}
+
+.flex_items {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 140px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5863f8;
+  width: 58px;
+  height: 58px;
+  border-radius: 30px;
+}
+.email {
+  font-size: 18px;
+  color: #000;
+  font-weight: bold;
+}
+
+.flex_items label {
+  font-size: 14px;
+  color: #b1b1b1;
+}

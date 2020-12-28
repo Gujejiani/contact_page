@@ -1,0 +1,32 @@
+@media (max-width: 1000px) {
+  .main_inputs {
+    flex-direction: column;
+    height: 500px;
+  }
+  .inputs input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .main_section {
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .header {
+    height: 200px;
+  }
+  .gmap_canvas {
+    height: 280px;
+  }
+  .nav {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .textSpace p {
+    font-size: 20px;
+    width: 190px;
+  }
+}
